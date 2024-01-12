@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Todo } from '../todo';
+import { Todo } from '../../todo';
 import { CommonModule } from '@angular/common';
 
 @Component({

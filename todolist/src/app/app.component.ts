@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { TodoListComponent } from './todo-list/todo-list.component';
+import { TodoListComponent } from './components/todo-list/todo-list.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { TodoListComponent } from './todo-list/todo-list.component';
   imports: [CommonModule, RouterOutlet, TodoListComponent],
   template: `
   <div class="container">
-    <todo-list/>
+    <router-outlet></router-outlet>
   </div>
   `,
   styles: [],
