@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TODOS } from '../../mock-todo';
-import { BorderHighlightDirective } from '../../border-highlight.directive';
+import { BorderHighlightDirective } from '../../directives/border-highlight.directive';
 import { TodoComponent } from '../todo/todo.component';
 import { TodoService } from '../../todo.service';
 import { Todo } from '../../todo';
